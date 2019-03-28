@@ -1,0 +1,8 @@
+.loginFalse{
+    text-align: center;
+    color: red;
+}
+.loginSucess{
+    text-align: end;
+    color: grey;
+}

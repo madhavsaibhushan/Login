@@ -1,0 +1,13 @@
+<div class="row">
+  <div class="col-lg-12 d-flex justify-content-center">
+    <p>id is {{listId}}</p>
+  </div>
+  <div class="col-lg-12 d-flex justify-content-center">
+<input type="text" class="form-control" [(ngModel)]="name">
+  </div>
+  <div class="col-lg-12 d-flex justify-content-center">
+    <button class="btn btn-danger m-5" routerLink="/list" (click)="ngOnInit()"> GO Back </button>
+    <button class="btn btn-danger m-5" routerLink="/list" (click)="update()" > Update </button>
+
+        </div>
+</div>

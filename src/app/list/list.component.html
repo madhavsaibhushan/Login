@@ -1,0 +1,6 @@
+<div class="list-group" *ngFor="let single of  list">
+
+  <a href="#" class="list-group-item list-group-item-action" [routerLink]="['/list/details']" 
+  [queryParams]={id:single.id,name:single.name}    ><span class="badge">{{single.id}}</span> {{single.name}}</a>
+</div>
+<router-outlet></router-outlet>
